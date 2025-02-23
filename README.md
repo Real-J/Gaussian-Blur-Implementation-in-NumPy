@@ -73,6 +73,8 @@ ax[1].set_title("Blurred Image")
 plt.show()
 ```
 
+![RESULT](Fig_1.png)
+
 ## Optimization Suggestions
 - **Vectorized Convolution**: Instead of nested loops, use NumPy slicing to speed up the convolution process.
 - **Use SciPy for Faster Convolution**: Replace manual convolution with `scipy.ndimage.convolve` for efficiency.
